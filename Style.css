@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  justify-content: center;
+  display: flex;
+  width: 1440px;
+  border-radius: 15px 50px 30px 5px;
+  background: #d6e1ff;
+  padding: 48px;
+}
+.main-div {
+  display: block;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+.first-photo {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.text1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2e55;
+  margin: 29px 48px 17px 48px;
+}
+
+.text2 {
+  display: block;
+  justify-content: center;
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  height: 78px;
+  margin: 0 48px 20px 48px;
+}
+.music-cont {
+  margin: 0 48px 32px 48px;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  position: relative;
+  padding-bottom: 98px;
+}
+
+.ProceedtoPayment {
+  justify-content: center;
+  display: block;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+}
+.icon-music {
+  position: absolute;
+  top: 25px;
+  left: 24px;
+}
+.annual-plan {
+  position: absolute;
+  left: 92px;
+  top: 25px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  left: 92px;
+  top: 52px;
+  color: #717fa6;
+}
+.Change {
+  position: absolute;
+  right: 39px;
+  top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+
+.ProceedtoPayment {
+  height: 50px;
+  width: 354px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  margin: auto;
+  color: #ffffff;
+  box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+}
+
+.p1 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 15px;
+}
+
+.CancelOrder {
+  padding-top: 32px;
+}
+
+.cancel {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
